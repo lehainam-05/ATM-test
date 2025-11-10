@@ -143,15 +143,15 @@ public class Account implements Serializable {
         this.transactions = transactions;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Account{" +
-//                "accountNumber='" + accountNumber + '\'' +
-//                ", accountHolderName='" + accountHolderName + '\'' +
-//                ", balance=" + balance +
-//                ", totalTransactions=" + transactions.size() +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Account{" +
+                "accountNumber='" + accountNumber + '\'' +
+                ", accountHolderName='" + accountHolderName + '\'' +
+                ", balance=" + balance +
+                ", totalTransactions=" + transactions.size() +
+                '}';
+    }
 
     // @Override
     // /**
